@@ -1,0 +1,4 @@
+.headerBg {
+  min-height: 100vh;
+  background-image: linear-gradient(#16222d 85%, #fff 0%);
+}
