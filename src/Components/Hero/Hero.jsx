@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <>
       <div>
-        <h2>Welcome to Mobile Gallery</h2>
+        <h2 className="text-4xl mt-10 text-gray-700">Welcome to Mobile Gallery</h2>
       </div>
     </>
   );
