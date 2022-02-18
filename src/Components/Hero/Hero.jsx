@@ -6,8 +6,8 @@ const Hero = () => {
     <header className="container mx-auto mt-5">
       <div className="h-full flex items-center justify-between">
         {/* Content start */}
-        <div className="w-full md:-mt-20">
-          <h2 className="text-5xl text-white font-bold mb-6 md:leading-snug">
+        <div className="w-full md:-mt-36 font-[Nunito]">
+          <h2 className="text-6xl text-white font-bold mb-6 md:leading-snug">
             Quickly Repair
             <br />
             Your Smart Phone <br />
@@ -17,7 +17,7 @@ const Hero = () => {
             Need to repair your smartphone? Don't worry about it! We are always
             prepared to give you a good service, come to our shop now.
           </p>
-          <button className="bg-[#6B68FF] text-white font-medium px-8 py-3 mt-5 rounded-sm md:px-14 hover:bg-[#6562ff] transition-all duration-200">
+          <button className="bg-[#6B68FF] text-white font-semibold px-8 py-3 mt-7 rounded-sm md:px-14 hover:bg-[#6562ff] transition-all duration-200">
             Learn More
           </button>
         </div>
