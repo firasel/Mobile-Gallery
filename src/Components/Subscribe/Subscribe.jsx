@@ -3,8 +3,8 @@ import { HiOutlineMail } from "react-icons/hi";
 
 const Subscribe = () => {
   return (
-    <div className="container mx-auto w-full flex items-center bg-[#6B68FF]">
-      <div className="w-full py-6 md:py-32 font-[Nunito] text-center">
+    <div className="container mx-auto w-full bg-[#6B68FF]">
+      <div className="w-full py-6 md:py-28 font-[Nunito] text-center">
         <h2 className="text-6xl text-white font-[600] mb-8 md:leading-snug">
           Subscribe to Our Newsletter
           <br />

@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./App.css";
 import Experience from "./components/Experience/Experience";
 import FastService from "./components/FastService/FastService";
+import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import OurServices from "./components/OurServices/OurServices";
 import Repair from "./components/Repair/Repair";
@@ -18,6 +19,7 @@ function App() {
       <Experience />
       <FastService />
       <Subscribe />
+      <Footer />
     </div>
   );
 }
