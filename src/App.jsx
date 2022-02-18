@@ -5,6 +5,7 @@ import FastService from "./components/FastService/FastService";
 import Header from "./components/Header/Header";
 import OurServices from "./components/OurServices/OurServices";
 import Repair from "./components/Repair/Repair";
+import Subscribe from "./components/Subscribe/Subscribe";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -16,6 +17,7 @@ function App() {
       <OurServices />
       <Experience />
       <FastService />
+      <Subscribe />
     </div>
   );
 }
