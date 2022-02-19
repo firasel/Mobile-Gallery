@@ -5,12 +5,9 @@ import "./Repair.css";
 
 const Repair = () => {
   return (
-    <div className="container mx-auto min-h-screen flex items-center">
-      <div className="w-full flex items-center justify-between">
-        <div className="w-7/12">
-          <img className="w-full" src={mobileRepairImg} />
-        </div>
-        <div className="w-5/12">
+    <div className="container mx-auto min-h-screen flex items-center mt-8 md:mt-0">
+      <div className="w-full md:flex items-center justify-between">
+        <div className="w-full md:w-5/12">
           <SectionContent
             content={{
               firstTitle: "We Repair Your",
@@ -19,6 +16,9 @@ const Repair = () => {
               cost.`,
             }}
           />
+        </div>
+        <div className="w-full md:order-first md:w-7/12">
+          <img className="w-full" src={mobileRepairImg} />
         </div>
       </div>
     </div>

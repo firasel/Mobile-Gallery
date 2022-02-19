@@ -5,8 +5,8 @@ import SectionContent from "../../sharedComponents/SectionContent/SectionContent
 const Experience = () => {
   return (
     <div className="container mx-auto min-h-screen flex items-center">
-      <div className="w-full flex items-center justify-between">
-        <div className="w-5/12 ml-10">
+      <div className="w-full md:flex items-center justify-between">
+        <div className="w-full md:w-5/12 md:ml-10">
           <SectionContent
             content={{
               firstTitle: "Experienced",
@@ -15,7 +15,7 @@ const Experience = () => {
             }}
           />
         </div>
-        <div className="w-7/12">
+        <div className="w-full md:w-7/12">
           <img className="w-full" src={mobileRepairImg} />
         </div>
       </div>

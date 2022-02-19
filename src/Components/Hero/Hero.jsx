@@ -7,7 +7,7 @@ const Hero = () => {
       <div className="h-full md:flex items-center justify-between">
         {/* Content start */}
         <div className="w-full xl:-mt-36 font-[Nunito]">
-          <h2 className="text-3xl md:text-4xl lg:text-6xl xl:text-6xl text-white font-bold mb-6 md:leading-snug">
+          <h2 className="text-3xl md:text-4x lg:text-6xl text-white font-bold mb-6 md:leading-snug">
             Quickly Repair
             <br />
             Your Smart Phone <br />
