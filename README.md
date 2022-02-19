@@ -1,3 +1,3 @@
 # Mobile Gallery
 
-[https://mobile-galleries.web.app/]Live view
+## Live view: https://mobile-galleries.web.app/
