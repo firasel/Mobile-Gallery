@@ -1,6 +1,6 @@
 import React from "react";
-import Hero from "../Hero/Hero.jsx";
-import Navbar from "../Navbar/Navbar.jsx";
+import Hero from "../Hero/Hero";
+import Navbar from "../Navbar/Navbar";
 import './Header.css';
 
 const Header = () => {

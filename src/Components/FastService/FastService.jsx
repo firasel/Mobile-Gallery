@@ -1,6 +1,6 @@
 import React from "react";
 import mobileRepairImg from "../../assets/images/mobileRepair4.svg";
-import SectionContent from "../../sharedComponents/SectionContent/SectionContent.jsx";
+import SectionContent from "../../sharedComponents/SectionContent/SectionContent";
 
 const FastService = () => {
   return (
