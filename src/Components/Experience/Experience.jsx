@@ -1,6 +1,6 @@
 import React from "react";
 import mobileRepairImg from "../../assets/images/mobileRepair3.svg";
-import SectionContent from "../../sharedComponents/SectionContent/SectionContent";
+import SectionContent from "../../sharedComponents/SectionContent/SectionContent.jsx";
 
 const Experience = () => {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
 import mobileRepairImg from "../../assets/images/mobileRepair2.svg";
-import SectionContent from "../../sharedComponents/SectionContent/SectionContent";
+import SectionContent from "../../sharedComponents/SectionContent/SectionContent.jsx";
 import "./Repair.css";
 
 const Repair = () => {
