@@ -5,7 +5,7 @@ import './Header.css';
 
 const Header = () => {
   return (
-    <div className="headerBg px-5 sm:px-0">
+    <div className="headerBg">
       <Navbar />
       <Hero />
     </div>
