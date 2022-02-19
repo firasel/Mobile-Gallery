@@ -24,8 +24,8 @@ const Footer = () => {
 
   return (
     <div className="container w-full mx-auto py-6 md:py-14 font-[Nunito]">
-      <div className="flex items-start justify-between">
-        <div className="w-full">
+      <div className="md:flex items-start justify-between">
+        <div className="w-full mb-6 md:mb-0">
           <div className="w-fit flex items-center">
             <div className="my-6 mr-3 py-3 px-[1.1rem] rounded-full bg-[#16222D] text-white font-semibold text-2xl italic">
               M
@@ -46,7 +46,7 @@ const Footer = () => {
               </div>
             ))}
           </div>
-          <p className="text-[#585C65] text-lg">
+          <p className="text-[#585C65] text-lg hidden md:block">
             Copyright © 2022 Mobile Gallery
           </p>
         </div>
@@ -64,6 +64,9 @@ const Footer = () => {
             </div>
           ))}
         </div>
+        <p className="text-[#585C65] text-lg text-center block md:hidden">
+          Copyright © 2022 Mobile Gallery
+        </p>
       </div>
     </div>
   );
