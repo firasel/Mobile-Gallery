@@ -18,7 +18,7 @@ const Navbar = () => {
             Gallery
           </div>
         </div>
-        <div className="hidden md:block md:flex items-center font-[Nunito]">
+        <div className="hidden md:block font-[Nunito]">
           <span className="text-white opacity-60 hover:opacity-75 transition-all duration-200 cursor-pointer px-2 py-2">
             Location
           </span>
@@ -41,8 +41,8 @@ const Navbar = () => {
       </div>
       <div
         className={`${
-          !expand && "h-0"
-        } h-auto overflow-hidden block md:hidden md:flex items-center text-center font-[Nunito]`}
+          !expand ? "h-0" : "h-auto"
+        } overflow-hidden block md:hidden text-center font-[Nunito]`}
       >
         <h4 className="text-white opacity-60 hover:opacity-80 transition-all duration-200 cursor-pointer px-2 py-2">
           Location
