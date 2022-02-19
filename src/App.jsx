@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./App.css";
-import Experience from "./components/Experience/Experience.jsx";
-import FastService from "./components/FastService/FastService.jsx";
+import { Experience } from "./components/Experience/Experience.jsx";
+import { FastService } from "./components/FastService/FastService.jsx";
 import Footer from "./components/Footer/Footer.jsx";
 import Header from "./components/Header/Header.jsx";
 import OurServices from "./components/OurServices/OurServices.jsx";
