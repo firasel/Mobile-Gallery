@@ -5,7 +5,6 @@ import { CgMenuRight } from "react-icons/cg";
 const Navbar = () => {
   const [expand, setExpand] = useState(false);
 
-  console.log(expand);
   return (
     <motion.nav
       initial={{ y: -100 }}

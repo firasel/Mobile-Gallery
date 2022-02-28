@@ -17,8 +17,12 @@ const FastService = () => {
           />
         </div>
         <motion.div
-          initial={{ scale: 0 }}
-          whileInView={{ scale: 1 }}
+          initial={{ x: -100, opacity: 0 }}
+          whileInView={{
+            x: 0,
+            opacity: 1,
+            transition: { duration: 0.3, type: "spring", damping: 10 },
+          }}
           viewport={{ once: true }}
           className="w-full md:order-first md:w-7/12"
         >
