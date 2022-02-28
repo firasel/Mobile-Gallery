@@ -23,10 +23,10 @@ const Footer = () => {
   ];
 
   return (
-    <div className="container w-full mx-auto py-6 md:py-14 font-[Nunito]">
+    <div className="container w-full mx-auto py-6 md:pt-10 md:pb-2 font-[Nunito]">
       <div className="md:flex items-start justify-between">
         <div className="w-full mb-6 md:mb-0">
-          <div className="w-fit flex items-center">
+          <div className="w-fit flex items-center cursor-pointer">
             <div className="my-6 mr-3 py-3 px-[1.1rem] rounded-full bg-[#16222D] text-white font-semibold text-2xl italic">
               M
             </div>
@@ -40,7 +40,7 @@ const Footer = () => {
             {socialLink.map((socialData, index) => (
               <div
                 key={index}
-                className="w-[2.8rem] h-[2.8rem] rounded-full p-2 bg-[#6B68FF] hover:bg-[#5d5bff] transition-all duration-300 text-white text-2xl flex items-center justify-center"
+                className="w-[2.8rem] h-[2.8rem] rounded-full p-2 bg-[#6B68FF] hover:bg-[#5d5bff] transition-all duration-300 text-white text-2xl flex items-center justify-center cursor-pointer"
               >
                 {socialData.icon}
               </div>

@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import React from "react";
 import { AiFillSetting } from "react-icons/ai";
 import { BsTablet } from "react-icons/bs";
@@ -33,7 +34,10 @@ const OurServices = () => {
         </h2>
         <div className="md:flex items-start justify-evenly">
           {services.map((service, index) => (
-            <div
+            <motion.div
+              initial={{ y: 100 }}
+              whileInView={{ y: 0, transition: { duration: 0.2 } }}
+              viewport={{ once: true }}
               key={index}
               className="w-full md:mx-6 bg-white shadow-lg rounded-lg  px-3 md:px-4 py-6 min-h-[22rem] flex items-center text-center font-[Nunito] transition-all duration-300 mb-8 md:mb-0 hover:scale-105 hover:shadow-xl"
             >
@@ -41,10 +45,12 @@ const OurServices = () => {
                 <div className="w-[4.8rem] h-[4.8rem] md:w-[5.4rem] md:h-[5.4rem] px-5 py-5 text-6xl mx-auto bg-[#6B68FF] rounded-full text-white flex items-center justify-center mb-6 mt-3">
                   {service.icon}
                 </div>
-                <h4 className="text-xl md:text-2xl font-semibold mb-4">{service.title}</h4>
+                <h4 className="text-xl md:text-2xl font-semibold mb-4">
+                  {service.title}
+                </h4>
                 <p>{service.content}</p>
               </div>
-            </div>
+            </motion.div>
           ))}
         </div>
       </div>

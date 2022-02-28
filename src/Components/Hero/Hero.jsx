@@ -1,9 +1,14 @@
+import { motion } from "framer-motion";
 import React from "react";
 import mobileRepairImg from "../../assets/images/mobileRepair1.jpg";
 
 const Hero = () => {
   return (
-    <header className="container mx-auto mt-5">
+    <motion.header
+      initial={{ y: 100 }}
+      animate={{ y: 0, transition: { duration: 0.2 } }}
+      className="container mx-auto mt-5"
+    >
       <div className="h-full md:flex items-center justify-between">
         {/* Content start */}
         <div className="w-full xl:-mt-36 font-[Nunito]">
@@ -30,7 +35,7 @@ const Hero = () => {
         </div>
         {/* Image end */}
       </div>
-    </header>
+    </motion.header>
   );
 };
 

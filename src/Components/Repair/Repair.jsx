@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import React from "react";
 import mobileRepairImg from "../../assets/images/mobileRepair2.svg";
 import SectionContent from "../../sharedComponents/SectionContent/SectionContent";
@@ -17,9 +18,14 @@ const Repair = () => {
             }}
           />
         </div>
-        <div className="w-full md:order-first md:w-7/12">
+        <motion.div
+          initial={{ scale: 0 }}
+          whileInView={{ scale: 1, }}
+          viewport={{ once: true }}
+          className="w-full md:order-first md:w-7/12"
+        >
           <img className="w-full" src={mobileRepairImg} />
-        </div>
+        </motion.div>
       </div>
     </div>
   );
